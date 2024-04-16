@@ -1,0 +1,125 @@
+<html>
+    <header>
+        <title>
+            Cart
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <body style="background-color: rgb(226, 218, 204);">
+        <div class="center">
+            <table>
+                <tr>
+                    <td><h2>Shopping Cart</h2></td>
+                    <td><h2 style="margin-left: 350px;">3 Items</h2></td>
+                    <td><h2 style="margin-left: 95px;">Orders</h2></td>
+
+                </tr>
+            </table>
+                 <table>
+                    <tr>     
+                    <td><div class="line"></div></td>
+                    <td><div class="line1" style="margin-right: 60px;"></div></td>
+
+                    </tr>
+                 </table>
+                 <table>
+                    <tr>
+                        <td><h4>PRODUCT DETAILS</h4></td>
+                        <td><h4 style="margin-left: 240px;">QUANTITY</h4></td>
+                        <td><h4 style="margin-left: 70px ;">PRICE</h4></td>
+                        <td><h4 style="margin-left: 70px;">TOTAL</h4></td>
+                        <td><h2 style="margin-left: 120px; margin-top: 20px;">ITEMS </h2></td>
+                        <td><input type="text" id="item" value="0"style="  font-size:20px;  background-color: rgba(255, 255, 255, 0);  margin-left:20px; margin-top: 20px; width: 50px; border: 0px;"></td>
+    
+                    </tr>
+                </table>
+                
+                <table >
+                    <tr>
+                        <td><img src="img/fifa.jpg" alt="" width="80px" height="100px" style="margin-top:20px ; margin-left: 60px;""></td>
+                        <td><table>
+                            <tr>
+                                <td><h4 style="margin-left: 10px; font-size: 14px;">Fifa 22</h4></td>
+                            </tr>
+                            <tr>
+                                <td><h4 style="margin-left: 10px;font-size: 14px; color: brown;">Ps4</h4></td>
+                            </tr>
+                            </table>
+                        </td>
+                        <td>                            
+                            <table style="margin-left:156px;">
+                            <tr>
+                             <td><input type="button" id="m1" value="-" onclick="minus1()" style="background-color: rgba(255, 255, 255, 0); border: 0px;"></td>
+                             <td><input type="text" id="text1" value="0"style="width: 20px;"></td>
+                             <td><input type="button" id="p1" value="+" onclick="plus1()" style="background-color: rgba(255, 255, 255, 0); border: 0px;"></td>
+                            </tr>
+                         </table></td>
+                        <td><h4 style="margin-left: 55px; font-size: 12px;">$59.99</h4></td>
+                        <td><input type="text" id="t1" value="0"style="background-color: rgba(255, 255, 255, 0);  margin-left:55px; width: 50px; border: 0px;"></td>
+                        <td><h4 style="margin-left: 100px; font-size: 15PX;">TOTAL :</h4></td>
+                        <td><input type="text" id="item1" value="0"style=" margin-top:15px; font-size:20px;  background-color: rgba(255, 255, 255, 0);  margin-left:10px; width: 50px; border: 0px;"></td>
+                        <td><h4 style="margin-left: 2px; font-size: 15PX; ">$</h4></td>
+
+    
+                    </tr>
+                </table>
+                <table >
+                    <tr>
+                        <td><img src="img/ps5.jpg" alt="" width="80px" height="100px" style="margin-top:20px ; margin-left: 60px;""></td>
+                        <td><table>
+                            <tr>
+                                <td><h4 style="margin-left: 10px; font-size: 14px;">PS5 1TB</h4></td>
+                            </tr>
+                            <tr>
+                                <td><h4 style="margin-left: 10px;font-size: 14px; color: brown;">Ps5</h4></td>
+                            </tr>
+                            </table>
+                        </td>
+                        <td>                            
+                            <table style="margin-left:147px;">
+                            <tr>
+                                <td><input type="button" id="m2" value="-" onclick="minus2()" style="background-color: rgba(255, 255, 255, 0); border: 0px;"></td>
+                                <td><input type="text" id="text2" value="0"style="width: 20px;"></td>
+                                <td><input type="button" id="p2" value="+" onclick="plus2()" style="background-color: rgba(255, 255, 255, 0); border: 0px;"></td>
+                            </tr>
+                         </table></td>
+                        <td><h4 style="margin-left: 55px; font-size: 12px;">$499.99</h4></td>
+                        <td><input type="text" id="t2" value="0"style="background-color: rgba(255, 255, 255, 0);  margin-left:47px; width: 50px; border: 0px;"></td>
+                        <td><div class="line1" style="color: brown; margin-left:80px;" ></div></td>
+
+    
+                    </tr>
+                </table>
+                <table >
+                    <tr>
+                        <td><img src="img/legion.jpg" alt="" width="80px" height="100px" style="margin-top:20px ; margin-left: 60px;""></td>
+                        <td><table>
+                            <tr>
+                                <td><h4 style="margin-left: 10px; font-size: 14px;">Watch Dogs : Legion</h4></td>
+                            </tr>
+                            <tr>
+                                <td><h4 style="margin-left: 10px;font-size: 14px; color: brown;">Ps4</h4></td>
+                            </tr>
+                            </table>
+                        </td>
+                        <td>                            
+                            <table style="margin-left:60px;">
+                            <tr>
+                                <td><input type="button" id="m3" value="-" onclick="minus3()" style="background-color: rgba(255, 255, 255, 0); border: 0px;"></td>
+                                <td><input type="text" id="text3" value="0"style="width: 20px;"></td>
+                                <td><input type="button" id="p3" value="+" onclick="plus3()" style="background-color: rgba(255, 255, 255, 0); border: 0px;"></td>
+                            </tr>
+                         </table></td>
+                        <td><h4 style="margin-left: 55px; font-size: 12px;">$49.99</h4></td>
+                        <td><input type="text" id="t3" value="0"style="background-color: rgba(255, 255, 255, 0);  margin-left:56px; width: 50px; border: 0px;"></td>
+                        <td><input type="button" value="CHECKOUT"  id="" style="width:180px; height:40px; margin-left: 100px; border: 0px; background-color: rgb(223, 37, 37); color: rgb(255, 255, 255); box-shadow: 0 0 10px 0 rgb(158, 87, 87);"></td>
+    
+                    </tr>
+                </table>
+
+            
+    
+</div>
+    <script src="script.js"></script>
+    </body>
+</html>
